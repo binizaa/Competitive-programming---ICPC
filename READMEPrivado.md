@@ -6,5 +6,6 @@ Algoritmos
 - Operaciones de bits
 - Euclid’s algorithm gcd lcm
 
-Sintaxis
+Sintaxisgit rm -r --cached .
+git add .
 - Sobrecarcar sort
