@@ -5,7 +5,9 @@ Algoritmos
 - Triangulo de pascal
 - Operaciones de bits
 - Euclid’s algorithm gcd lcm
+- Modular exponentiation
+- Criba
+- ST ^ LST (igual, max, sum)
 
-Sintaxisgit rm -r --cached .
-git add .
+C++
 - Sobrecarcar sort
