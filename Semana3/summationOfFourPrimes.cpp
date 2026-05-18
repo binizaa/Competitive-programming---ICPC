@@ -3,23 +3,23 @@
 using namespace std;
 
 const int LIMITE = 10000000;
-vector<bool> es_primo_arr(LIMITE + 1, true);
+vector<bool> isPrime(LIMITE + 1, true);
 
 void criba() {
-    es_primo_arr[0] = es_primo_arr[1] = false;
+    isPrime[0] = isPrime[1] = false;
     for (int p = 2; (long long)p * p <= LIMITE; p++) {
-        if (es_primo_arr[p])
+        if (isPrime[p])
             for (int i = p * p; i <= LIMITE; i += p)
-                es_primo_arr[i] = false;
+                isPrime[i] = false;
     }
 }
 
 pair<int,int> goldbach(int n) {
     for (int p = 2; p <= n / 2; p++) {
-        if (es_primo_arr[p] && es_primo_arr[n - p])
+        if (isPrime[p] && isPrime[n - p])
             return {p, n - p};
     }
-    return {-1, -1}; // no debería ocurrir para n >= 4
+    return {-1, -1}; 
 }
 
 void solve(int n) {

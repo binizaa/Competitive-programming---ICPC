@@ -19,7 +19,6 @@ void criba() {
     }
 }
 
-// ICPC
 struct Segtree {
     vector<ll> st, lazy, marked;
     ll n;

@@ -10,7 +10,6 @@ using namespace std;
 
 vector<long long> factores;
 
-//ICPC
 vector<long long> getFactors(long long n) {
     std::vector<long long> primos;
     if (n <= 1) return primos;

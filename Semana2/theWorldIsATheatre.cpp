@@ -8,7 +8,6 @@
 
 using namespace std;
 
-//ICPC
 long long binomial(long long n, long long k) {
 	// dp[i][j] stores iCj
 	vector<vector<long long>> dp(n + 1, vector<long long>(k + 1, 0));

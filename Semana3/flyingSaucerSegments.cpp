@@ -8,7 +8,6 @@ using namespace std;
 
 #define rep(i,a,b) for(ll i=a; i<b; i++)
 
-// ICPC
 long long modpow(long long x, long long n, long long m) {
     if (n == 0) return 1%m;
     long long u = modpow(x,n/2,m);

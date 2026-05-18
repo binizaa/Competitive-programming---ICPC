@@ -13,7 +13,6 @@ const int LIMITE = 10000;
 vector<bool> es_primo(LIMITE + 1, true);
 vector<ll> primes;
 
-// ICPC
 void criba() {
     es_primo[0] = es_primo[1] = false;
     int last = 2;

@@ -2,12 +2,6 @@ Agregara al template
 
 Algoritmos
 
-- Triangulo de pascal
-- Operaciones de bits
-- Euclid’s algorithm gcd lcm
-- Modular exponentiation
-- Criba
-- ST ^ LST (igual, max, sum)
+- Operaciones de bits YA
 
-C++
-- Sobrecarcar sort
+- ST ^ LST (igual, max, sum)
